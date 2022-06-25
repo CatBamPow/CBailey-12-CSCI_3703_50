@@ -1,0 +1,70 @@
+/* color pallet--
+https://coolors.co/172a3a-c9b1bd-edae49-a7e2e3-d81e5b
+Dark blue -- #172a3a
+soft pink -- #c9b1bd
+yellow -- #edae49
+light blue -- #a7e2e3
+bright pink -- #d81e5b
+*/
+
+html {background-color: #172a3a;}
+
+h1, h3, p {
+    color: #c9b1bd;
+    margin: 0;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+
+}
+
+li, ul {
+    color:#edae49  ;
+    margin:auto; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.row {
+    clear:both}
+
+.column {
+    width: 50%;
+    float: left;
+}
+
+img {
+    width: 300px;
+    margin: 0 auto;
+}
+
+figcaption {
+    color: #c9b1bd;
+    font-style: italic;
+    text-align: center;
+}
+
+
+a {
+    color: #edae49;
+    background-color: #d81e5b ;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 0;
+}
+
+form {
+    color:#c9b1bd;
+    text-align: center;
+}
+
+button {
+    color: #edae49;
+    background-color: #d81e5b ;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.center {
+    display: block;
+}
