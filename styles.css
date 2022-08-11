@@ -1,0 +1,53 @@
+body {
+    background-color:steelblue;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    background-color:steelblue;
+    border-radius:15px;
+    border-style:solid;
+    border-width:1px;
+    border-color:white;
+    box-shadow: 0px 0px 50px white;
+}
+
+form {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    text-align: center;
+    color:bisque
+
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    color:bisque
+}
+
+button {
+    background-color: bisque; 
+    border: none;
+    color: rgb(85, 77, 228);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 12px;
+    transition-duration: 0.4s
+}
+
+button:hover {
+    background-color: bisque;
+    color:rgb(255, 60, 0);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}

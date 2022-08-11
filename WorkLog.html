@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>WorkLog</title>
+</head>
+<body>
+        <h2>Punch Successful!</h2>
+        <div id="WorkLog"></div>
+        <a href="http://127.0.0.1:3000/Final Project/form.html">Back to Form</a>
+        <script>
+            const resultsList = document.getElementById('WorkLog')
+            new URLSearchParams(window.location.search).forEach((value,name) => {
+                resultsList.append(`${name}: ${value}`)
+                resultsList.append(document.createElement('br'))
+            })
+        </script>
+
+    
+</body>
+</html>

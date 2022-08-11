@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    
+    <title>Form</title>
+</head>
+
+<body>
+    <img src="UTSW_Logo.jpg" alt="UT Southwestern Logo">
+
+
+    <form action="WorkLog.html" method="GET">
+       <br>
+        <div>
+            <h2>Please enter your UTSW Person Number:</h2>
+            <label for="pnumber">Person Number:</label>
+            <input type="text" name="pnumber" id="pnumber" minlength="5" maxlength="6" placeholder="123456" required>
+            <!-- even though this is a numeric field, I used the 'text' type since a high number is needed -->
+        </div>
+        <div>
+            <h2>Are you punching in or out?</h2>
+            <input type="radio" id="In" name="punch" id="in" value="in">
+            <label>In</label><br>
+            <input type="radio" id="Out" name="punch" id="out" value="out">
+            <label>Out</label>
+        </div>
+        <br>
+        <div>
+            <h2>Timestamp:</h2>
+            <input type="date" id="date" name="Date" value="date" required>
+            <input type="time" id="time" name="Time" value="time" required>
+        </div>
+        <br>
+        <div>
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+        </div>
+
+    </form>
+
+
+</body>
+</html>
